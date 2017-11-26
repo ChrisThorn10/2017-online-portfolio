@@ -1,0 +1,22 @@
+.wrapper {
+    max-width: 1200px;
+    padding: 0 40px;
+    -webkit-margin-after: 3em;
+    display: block;
+    margin: 0 auto;
+    
+    & img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    & .wrapper{
+        padding:0;
+        margin: 0;
+    }
+    
+    &__group-top-section {
+        
+    }
+}

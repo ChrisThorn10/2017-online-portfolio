@@ -1,0 +1,23 @@
+.work-history{
+    &__section {
+        @mixin atSmall {
+            position:relative;
+            left:0;
+            right:0;
+        } 
+        
+        @mixin atMedium {
+            width: 35%;
+            float: right;
+            padding: 20px;
+            box-shadow: 2px 2px 5px #CCC;
+            
+            &::after{
+                content:"";
+                clear: both;
+                display: table;
+            }
+            
+        }
+    }    
+}

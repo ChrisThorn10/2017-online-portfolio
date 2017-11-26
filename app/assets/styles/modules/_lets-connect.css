@@ -1,0 +1,14 @@
+.lets-connect{
+    
+    & ul li{
+        font-size: .95rem;
+    }
+    
+    & img {
+        max-width: 300px;
+    }
+    
+    @mixin atMedium {
+        text-align: center;
+    }
+}

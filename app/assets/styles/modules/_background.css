@@ -1,0 +1,13 @@
+.background {
+    &__teal {
+        background-image: url(../../assets/images/charlotte-skyline-400-500-teal.png);
+        background-size:cover;
+        padding: 10px 0;
+    }
+    
+    &__gray {
+        background-color:#f0f0f0;
+        /*background-color:green;*/
+        padding: 10px 0;
+    }
+}

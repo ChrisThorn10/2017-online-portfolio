@@ -1,0 +1,32 @@
+.main-header {
+    width:100%;
+    background-color: #003366;
+    padding: 20px 40px;
+    margin-bottom: 80px;
+    height: 420px;
+    transition: all .3 ease-out;
+    border-bottom: $teal 20px solid;
+     
+    @mixin atSmall {
+        height:350px;
+    }
+    
+     @mixin atMedium {
+        margin-bottom: 0px;
+        height:400px;
+    }
+    
+    
+    & img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+}
+
+h1{
+    border: 0px;
+    padding: 0px 0;
+    color: white;
+}
