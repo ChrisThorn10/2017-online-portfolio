@@ -58,7 +58,7 @@ ul li {
     line-height: 1.2;
 }
 
-a:not(.div-link) {
+a {
     color:$teal;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 900;

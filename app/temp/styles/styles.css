@@ -511,7 +511,7 @@ ul li {
     line-height: 1.2;
 }
 
-a:not(.div-link) {
+a {
     color:#007899;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 900;
@@ -534,27 +534,35 @@ hr {
 
 .main-header {
     width:100%;
-    background-color: #003366;
+    background: #003366;
+    background: -webkit-gradient(linear, left top, right bottom, from(#036), to(#002242));
+    background: linear-gradient(to bottom right, #036, #002242);
+    /*background-color: #036;*/
     padding: 20px 40px;
     margin-bottom: 80px;
     height: 420px;
     -webkit-transition: all .3 ease-out;
     transition: all .3 ease-out;
     border-bottom: #007899 20px solid;
+    
 }
 
 @media (min-width:500px){
 
 .main-header {
         height:350px
+    
 }
 	}
 
 @media (min-width:768px){
 
 .main-header {
+        position: absolute;
         margin-bottom: 0px;
-        height:400px
+        height:400px;
+        z-index: 100
+    
 }
 	}
 
@@ -564,6 +572,33 @@ hr {
         margin: 0 auto;
         max-width: 250px;
     }
+
+@media (min-width:768px){
+
+.main-header__minimal{
+            position:fixed;
+            height:70px;
+            -webkit-box-shadow: 0px 4px 8px rgba(0,0,0,.4);
+                    box-shadow: 0px 4px 8px rgba(0,0,0,.4)
+    }
+            
+            .main-header__minimal img {
+                width: 100px;
+                display: inline-block;
+                position:absolute;
+                left: 5px;
+                top:5px;
+            }
+            
+            .main-header__minimal h1 {
+                position: absolute;
+                left: 140px;
+                top: 0px;
+                font-size: 1.5rem;
+                text-align: left;
+                display: inline-block;
+            }
+	}
 
 h1{
     border: 0px;
@@ -590,9 +625,13 @@ h1{
         margin: 0;
     }
 
+@media (min-width:768px){
+
 .wrapper__group-top-section {
+            padding-top:450px
         
     }
+	}
 
 .quick-links__item-container {
         display: -webkit-box;
@@ -674,6 +713,10 @@ h1{
         margin-bottom: 20px;
     }
 
+.lets-connect{
+    padding-bottom: 10em;
+}
+
 .lets-connect ul li{
         font-size: .95rem;
     }
@@ -698,7 +741,7 @@ h1{
 .background__gray {
         background-color:#f0f0f0;
         /*background-color:green;*/
-        padding: 10px 0;
+        padding: 40px 0;
     }
 
 .button {
@@ -710,7 +753,13 @@ h1{
     padding: 12px 16px;
     display: block;
     text-align: center;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
 }
+
+.button:hover {
+        background-color: #003366;    
+    }
 
 .site-footer{
     background-color:#454545;
