@@ -79,7 +79,7 @@ function adjustHeader() {
         document.getElementById("page-header").className = "main-header main-header__minimal";
 
     }
-    else if (!scrollingDown){
+    else{
         document.getElementById("page-header").className = " main-header";
     }
     
