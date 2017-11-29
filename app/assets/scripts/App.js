@@ -11,12 +11,14 @@ document.getElementById("mockups-ql").addEventListener("click", function() {
 });
 
 document.getElementById("ux-ql").addEventListener("click", function() {
-    window.open('assets/documents/ux-design-documents.pdf', '_blank');
+    window.open('ux-samples.html', '_blank');
 });
 
 document.getElementById("parser-ql").addEventListener("click", function() {
     window.open('https://github.com/ChrisThorn10/drupal-automation', '_blank');
 });
+
+
 
 
 

@@ -56,10 +56,31 @@
         }
     }
     
-}
-
-h1{
+    &__inner-pages{
+        position:static;
+        height:120px;
+        
+        & img {
+                width: 150px;
+                display: inline-block;
+                position:absolute;
+                left: 5px;
+                top:5px;
+        }
+        
+        & h2{
+            position: relative;
+            left: 150px;
+            color:white;
+            display:inline;
+        }
+    }
+ 
+    h1{
     border: 0px;
     padding: 0px 0;
     color: white;
+    }   
 }
+
+

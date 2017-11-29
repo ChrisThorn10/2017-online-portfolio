@@ -79,3 +79,7 @@ hr {
     border-style: dashed;
     border-color: #CCC;
 }
+
+.header-left{
+    text-align: left;
+}
