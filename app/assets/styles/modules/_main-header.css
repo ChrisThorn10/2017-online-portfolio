@@ -75,6 +75,12 @@
             display:inline;
             font-size: 1.5rem;
         }
+        
+        & h2 a{
+            color:white;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
     }
  
     h1{

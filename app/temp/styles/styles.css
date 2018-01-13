@@ -622,6 +622,12 @@ hr {
             font-size: 1.5rem;
         }
 
+.main-header__inner-pages h2 a{
+            color:white;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
 .main-header h1{
     border: 0px;
     padding: 0px 0;
