@@ -545,8 +545,8 @@ hr {
     padding: 20px 40px;
     margin-bottom: 80px;
     height: 420px;
-    -webkit-transition: all .3 ease-out;
-    transition: all .3 ease-out;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
     border-bottom: #007899 20px solid;   
 }
 
@@ -562,7 +562,7 @@ hr {
 .main-header {
         position: absolute;
         margin-bottom: 0px;
-        height:400px;
+        height:300px;
         z-index: 100   
 }
 	}
@@ -603,7 +603,7 @@ hr {
 
 .main-header__inner-pages{
         position:static;
-        height:120px;
+        height:70px;
     }
 
 .main-header__inner-pages img {
@@ -619,6 +619,7 @@ hr {
             left: 150px;
             color:white;
             display:inline;
+            font-size: 1.5rem;
         }
 
 .main-header h1{
@@ -649,7 +650,7 @@ hr {
 @media (min-width:768px){
 
 .wrapper__group-top-section {
-            padding-top:450px
+            padding-top:400px
         
     }
 	}

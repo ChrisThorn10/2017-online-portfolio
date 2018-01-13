@@ -76,7 +76,7 @@ function adjustHeader() {
     
     //alert("scrolling down: " + scrollingDown);
 
-    if (scrollingDown && rect.top <= 120 || !scrollingDown && rect.top <= 120){
+    if (scrollingDown && rect.top <= 220 || !scrollingDown && rect.top <= 120){
         //alert(document.getElementById("page-header"));
         document.getElementById("page-header").className = "main-header main-header__minimal";
 

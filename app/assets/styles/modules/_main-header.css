@@ -6,7 +6,7 @@
     padding: 20px 40px;
     margin-bottom: 80px;
     height: 420px;
-    transition: all .3 ease-out;
+    transition: all .8s ease-in-out;
     border-bottom: $teal 20px solid;
     
     
@@ -17,7 +17,7 @@
     @mixin atMedium {
         position: absolute;
         margin-bottom: 0px;
-        height:400px;
+        height:300px;
         z-index: 100;
     }
     
@@ -58,7 +58,7 @@
     
     &__inner-pages{
         position:static;
-        height:120px;
+        height:70px;
         
         & img {
                 width: 150px;
@@ -73,6 +73,7 @@
             left: 150px;
             color:white;
             display:inline;
+            font-size: 1.5rem;
         }
     }
  

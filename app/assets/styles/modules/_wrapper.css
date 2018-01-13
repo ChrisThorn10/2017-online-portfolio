@@ -20,7 +20,7 @@
     &__group-top-section {
         
         @mixin atMedium{
-            padding-top:450px;  
+            padding-top:400px;  
         }
         
     }
