@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 document.getElementById("travel-site-ql").addEventListener("click", function() {
-    window.open('https://christhorn10.github.io/travel-site/', '_blank');
+    window.open('web-development.html', '_blank');
 });
 
 document.getElementById("mockups-ql").addEventListener("click", function() {

@@ -83,3 +83,7 @@ hr {
 .header-left{
     text-align: left;
 }
+
+.text-centered{
+    text-align: center;
+}

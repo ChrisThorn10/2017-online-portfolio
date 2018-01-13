@@ -30,6 +30,12 @@
         max-width: 250px;
     }
     
+    h1 {
+        border: 0px;
+        padding: 0px 0;
+        color: white;
+    }
+    
     &__minimal{
         @mixin atMedium {
             position:fixed;
@@ -59,21 +65,22 @@
     &__inner-pages{
         position:static;
         height:70px;
+        margin-bottom: 0px;
         
         & img {
-                width: 150px;
-                display: inline-block;
-                position:absolute;
-                left: 5px;
-                top:5px;
+                display: none;
         }
         
         & h2{
-            position: relative;
-            left: 150px;
+            text-align: center;
             color:white;
             display:inline;
             font-size: 1.5rem;
+            
+            @mixin atSmall{
+                position: relative;
+                left: 150px;   
+            }
         }
         
         & h2 a{
@@ -81,12 +88,16 @@
             text-decoration: none;
             font-size: 1.5rem;
         }
-    }
- 
-    h1{
-    border: 0px;
-    padding: 0px 0;
-    color: white;
+        
+        @mixin atSmall {
+            & img {
+                width: 150px;
+                display: inline-block;
+                position:absolute;
+                left: 5px;
+                top:5px;
+            }    
+        }
     }   
 }
 
